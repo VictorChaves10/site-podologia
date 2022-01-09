@@ -12,8 +12,11 @@
 <body>
     <header>
         <nav>
-            <img src="imagens/logo.png" class="logo" alt="Logo Claudia Araujo">  
-            <!--menu hamburguer--> 
+            <picture class="logo">
+                <source media="(max-width:700px)" srcset="imagens/logo-pequena-150.png">
+                <img src="imagens/logo.png" alt="Logo Claudia Araujo">
+            </picture>
+            <!--menu hamburguer-->
             <div class="mobile-menu">
                 <div class="line1"></div>
                 <div class="line2"></div>
@@ -29,57 +32,49 @@
     </header>
 
     <main>
-        <div id="provisorio">
+        <div class="provisorio">
 
         </div>
 
-        <section>
+        <section class="atendimento">
 
             <h1>Tipos de atendimentos</h1>
             <p>Veja abaixo alguns dos nossos atendimentos e as suas particularidades.</p>
 
-            <article>
+            <div class="tipos-de-pes">
                 <div>
                     <img src="imagens/atleta (280 x 224 px).png" alt="Atletas">
-                    <h1 class="tiposdepes">Atletas</h1>
-                    <button class="botaotiposdepes">VEJA SOBRE</button>
+                    <h2 class="tiposdepes">Atletas</h1>
+                        <button class="botaotiposdepes">VEJA SOBRE</button>
                 </div>
                 <div>
                     <img src="imagens/idosos (280 x 224 px).png" alt="Idosos">
-                    <h1 class="tiposdepes">Idosos</h1>
-                    <button class="botaotiposdepes">VEJA SOBRE</button>
+                    <h2 class="tiposdepes">Idosos</h1>
+                        <button class="botaotiposdepes">VEJA SOBRE</button>
                 </div>
                 <div>
                     <img src="imagens/diabetes (280 x 224 px).png" alt="diabetes">
-                    <h1 class="tiposdepes">Diabetes</h1>
-                    <button class="botaotiposdepes" type="">VEJA SOBRE</button>
+                    <h2 class="tiposdepes">Diabetes</h1>
+                        <button class="botaotiposdepes" type="">VEJA SOBRE</button>
                 </div>
                 <div>
                     <img src="imagens/Infantil (280 x 224 px).png" alt="Crianças">
-                    <h1 class="tiposdepes">Infantil</h1>
-                    <button class="botaotiposdepes" type="">VEJA SOBRE</button>
+                    <h2 class="tiposdepes">Infantil</h1>
+                        <button class="botaotiposdepes" type="">VEJA SOBRE</button>
                 </div>
                 <div>
                     <img src="imagens/home-care(280 x 224 px) (1).png" alt="Home care">
-                    <h1 class="tiposdepes">Home Care</h1>
-                    <button class="botaotiposdepes" type="">VEJA SOBRE</button>
+                    <h2 class="tiposdepes">Home Care</h1>
+                        <button class="botaotiposdepes" type="">VEJA SOBRE</button>
                 </div>
-
-            </article>
-
-            <h1>Procedimentos</h1>
-            <p>Veja abaixo todos os nossos procedimentos e clique encima das imagens para descobrir um pouco mais sobre
-                cada um.</p>
-
-            <article>
-
-            </article>
+            </div>
 
         </section>
 
-
-
-
+        <h1>Procedimentos</h1>
+        <p>Veja abaixo todos os nossos procedimentos e clique encima das imagens para descobrir um pouco mais sobre
+            cada um
+        </p>
     </main>
     <footer>
 

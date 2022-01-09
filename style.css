@@ -20,13 +20,14 @@
     margin: 0px;
     padding: 0px;
 }
+/*congigurção do menu responsivo e do cabeçalho*/
 body{
     overflow-x: hidden;
 }
 
 header{
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     background-color: var(--cor4);   
 }
 
@@ -34,11 +35,12 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    height: 18vh;
+    height: 15vh;
 }
 
-img.logo{
+.logo{
     display: inline;
+    margin-bottom: 10px;
 }
 
 .mobile-menu{
@@ -82,7 +84,7 @@ a:hover {
     }
     .nav-list{
         position: absolute;
-        top: 21vh;
+        top: 17vh;
         right: 0px;
         width: 50vh;
         height: 92vh;
@@ -125,19 +127,26 @@ a:hover {
     transform: rotate(45deg) translate(-5px, -7px);
 }
 
+/*abaixo configurações do main*/
 
-main > div#provisorio{
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.provisorio{
     width: 100%;    
     height: 700px;
     background-color: var(--cor5);
 }
 
-main > section{
-    text-align: center;
-    padding: 30px;
+.atendimento{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
 
-main > section > h1 {
+.atendimento h1 {
     font-family: var(--font-destaque);
     font-size: 50px;
     color: var(--cor4);
@@ -146,7 +155,7 @@ main > section > h1 {
     margin-bottom: 10px;
 }
 
-main > section > p {
+.atendimento p {
     font-family: var(--font-padrao);
     font-size: 18px;
     color:black;
@@ -154,31 +163,32 @@ main > section > p {
     margin-top: 10px;
     margin-bottom: 30px;
 }
-
-main article {
-    margin-bottom: 60px;
+.tipos-de-pes{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
-
-main article > div {
-    display: inline-block;
+.tipos-de-pes div {
+    text-align: center;
     width: 350px;
     height: 350px;
-    padding: 10px;
-    margin-right: 30px;
-    margin-top: 20px;
+    padding: 5px;
+    margin-top: 30px;
     border-radius: 10px ;
     background-color: white;
     box-shadow: 2px 3px 10px 2px rgb(0 0 0 / 20%);
 }
 
-main h1.tiposdepes {
+.tipos-de-pes h2{
     font-family: var(--font-destaque);
     font-weight: bold;
     font-size: 30px;
     color: var(--cor5);
 }
 
-main .botaotiposdepes{
+.tipos-de-pes button{
     font-family: var(--font-padrao);
     font-weight: normal;
     font-size: 13px;
@@ -187,7 +197,7 @@ main .botaotiposdepes{
     width: 150px;
     padding: 15px ;
     border:none;
-    margin-top: 20px; 
+    margin-top: 10px; 
     border-radius: 50px;
     cursor: pointer;
 }
@@ -195,4 +205,3 @@ main .botaotiposdepes{
 .botaotiposdepes:hover {
     background-color:#83E1AD;  
 }
-
