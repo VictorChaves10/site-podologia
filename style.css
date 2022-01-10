@@ -35,7 +35,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    height: 15vh;
+    height: 16vh;
 }
 
 .logo{
@@ -133,13 +133,21 @@ main {
     flex-direction: column;
 }
 
-.provisorio{
-    width: 100%;    
-    height: 700px;
-    background-color: var(--cor5);
+.capa{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#ecf7f796;
 }
-
-.atendimento{
+.capa h1 {
+    font-family: var(--font-destaque);
+    font-size: 80px;
+    color: var(--cor4);
+}
+span.titulo {
+    color: var(--cor3);
+}
+.atendimento {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -148,7 +156,7 @@ main {
 .atendimento h1 {
     font-family: var(--font-destaque);
     font-size: 50px;
-    color: var(--cor4);
+    color: var(--cor3);
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -157,7 +165,7 @@ main {
 .atendimento p {
     font-family: var(--font-padrao);
     font-size: 18px;
-    color:black;
+    color:var(--cor5);
     text-align: center;
     margin-top: 10px;
     margin-bottom: 30px;
