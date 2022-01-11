@@ -135,14 +135,15 @@ main {
 
 .capa{
     display: flex;
-    height: 80vh;
-    justify-content: space-evenly;
+    height: 82vh;
     background-color: #ecf7f796;
+    justify-content: center;
     align-items: flex-end;
 }
 
 .capa-texto{
-    
+    display: flex;
+    flex-direction: column;
 }
 .capa-texto h1 {
     font-family: var(--font-destaque);
@@ -159,7 +160,9 @@ span.titulo {
     margin-top: 10px;
 }
 
+
 @media (max-width:780px) {
+
     .capa h1 {
         font-size: 50px;
     }
