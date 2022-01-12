@@ -129,44 +129,40 @@ a:hover {
 /*abaixo configurações do main*/
 
 main {
-    display: flex;
-    flex-direction: column;
+   
+display: block;
 }
 
 .capa{
     display: flex;
-    height: 82vh;
-    background-color: #ecf7f796;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-end;
+    height: 82vh;
 }
-
-.capa-texto{
-    display: flex;
-    flex-direction: column;
+.texto-da-capa{
+    padding-bottom: 200px;
 }
-.capa-texto h1 {
+.texto-da-capa h1{
     font-family: var(--font-destaque);
     font-size: 80px;
     color: var(--cor4);
 }
-span.titulo {
+span.texto-principal-capa{
     color: var(--cor2);
 }
-.capa-texto p {
+.texto-da-capa p {
     font-family: var(--font-padrao);
     font-size: 18px;
     color:var(--cor5);
-    margin-top: 10px;
+
 }
 
-
-@media (max-width:780px) {
-
-    .capa h1 {
-        font-size: 50px;
-    }
+@media (max-width:790px){
+   .capa{
+       height: 68vh;
+   }
 }
+
 .atendimento {
     display: flex;
     flex-direction: column;
