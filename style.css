@@ -81,6 +81,10 @@ a:hover {
     body {
         overflow-x: hidden;
     }
+    .logo{
+        margin-right: 150px;
+        margin-left: 30px;
+    }
     .nav-list{
         position: absolute;
         top: 17vh;
