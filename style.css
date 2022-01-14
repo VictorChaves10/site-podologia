@@ -129,7 +129,7 @@ section.capa{
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
-    height: 100vh;
+    height:100%; 
     padding-right:20px;
     padding-left: 20px;
     margin: auto;
@@ -162,7 +162,7 @@ section.capa{
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
-        height: 100vh;
+        height: 100%;
     
     }
     .capa-texto {
@@ -257,5 +257,9 @@ main {
 
     .atendimento p {
         font-size: 15px;
+    }
+    .tipos-de-pes div{
+        width: 300px;
+        height: 300px;
     }
 }
