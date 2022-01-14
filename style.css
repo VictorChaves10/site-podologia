@@ -35,7 +35,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    height: 16vh;
+    height: 17vh;
 }
 
 .logo{
@@ -45,13 +45,15 @@ nav {
 .mobile-menu{
     cursor: pointer;
     display: none;
+    margin-bottom: 20px;
 }
 
 .mobile-menu div {
     width: 32px;
-    height: 2px;
+    height: 3px;
+    border-radius: 10px;
     background-color: white;
-    margin: 8px 0px;
+    margin: 6px 0px;
     transition: 0.3s; 
 }
 
@@ -87,7 +89,7 @@ a:hover {
     }
     .nav-list{
         position: absolute;
-        top: 17vh;
+        top: 19vh;
         right: 0px;
         width: 50vh;
         height: 92vh;
@@ -120,57 +122,73 @@ a:hover {
         transform: translateX(0);
     }
 }
-.mobile-menu.active .line1{
-    transform: rotate(-45deg) translate(-8px, 8px);
-}
-.mobile-menu.active .line2{
-    opacity: 0;
-}
-.mobile-menu.active .line3{
-    transform: rotate(45deg) translate(-5px, -7px);
-}
 
-/*abaixo configurações do main*/
+/*Configurações da capa*/
 
-main {
-   
-display: block;
-}
-
-.capa{
+section.capa{
     display: flex;
-    justify-content: space-around;
     align-items: flex-end;
-    height: 82vh;
+    justify-content: space-evenly;
+    height: 100vh;
+    padding-right:20px;
+    padding-left: 20px;
+    margin: auto;
+    background-color:#ecf7f796;
 }
-.texto-da-capa{
+
+.capa picture{
+    max-height: 100vh;
+}
+.capa-texto{
     padding-bottom: 200px;
 }
-.texto-da-capa h1{
+
+.capa-texto h1{
     font-family: var(--font-destaque);
     font-size: 80px;
     color: var(--cor4);
 }
-span.texto-principal-capa{
+.capa-texto span {
     color: var(--cor2);
 }
-.texto-da-capa p {
+.capa-texto p{
     font-family: var(--font-padrao);
     font-size: 18px;
     color:var(--cor5);
+}
+@media (max-width:770px){
+    section.capa {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100vh;
+    
+    }
+    .capa-texto {
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+    .capa-texto h1 {
+        font-size: 50px;
+    }
 
 }
 
-@media (max-width:790px){
-   .capa{
-       height: 68vh;
-   }
+/*conteudo*/
+
+main {
+    display: block;
+    padding: 0px 10px;
+    margin: auto;
 }
 
 .atendimento {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding-top: 20px;
 }
 
 .atendimento h1 {
@@ -187,7 +205,6 @@ span.texto-principal-capa{
     font-size: 18px;
     color:var(--cor5);
     text-align: center;
-    margin-top: 10px;
     margin-bottom: 30px;
 }
 .tipos-de-pes{
@@ -231,4 +248,14 @@ span.texto-principal-capa{
 
 .botaotiposdepes:hover {
     background-color:#83E1AD;  
+}
+
+@media (max-width:770px){
+    .atendimento h1 {
+        font-size: 45px;
+    }
+
+    .atendimento p {
+        font-size: 15px;
+    }
 }
