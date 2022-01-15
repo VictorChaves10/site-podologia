@@ -127,6 +127,7 @@ a:hover {
 /*Configurações da capa*/
 
 section.capa{
+
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
@@ -225,7 +226,6 @@ main {
     background-color: white;
     box-shadow: 2px 3px 10px 2px rgb(0 0 0 / 20%);
 }
-
 .tipos-de-pes h2{
     font-family: var(--font-destaque);
     font-weight: bold;
@@ -261,8 +261,8 @@ main {
         font-size: 15px;
     }
     .tipos-de-pes div{
-        width: 300px;
-        height: 300px;
+        width: 280px;
+        height: 320px;
     } 
 }
 
@@ -283,4 +283,20 @@ main {
     color:var(--cor5);
     text-align: center;
     margin-bottom: 30px;
+}
+
+/*ANIMAÇÃO*/
+[data-anima]{
+    opacity: 0;
+    transition: 0.5s;
+}
+[data-anima="direita"]{
+    transform: translate3d(50px,0,0); /*x,y,z*/
+}
+[data-anima="centro"]{
+    transform: translate3d(0,50px,0);
+}
+[data-anima].animacao{
+    opacity: 1;
+    transform: translate3d(0,0,0);
 }
