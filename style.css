@@ -135,7 +135,7 @@ section.capa{
 }
 
 .capa picture{
-    max-height:calc(100vh - 100px);
+    max-height:100vh;
 }
 .capa-texto{
     padding-bottom: 200px;
@@ -179,7 +179,7 @@ section.capa{
 main {
     display: block;
     padding: 0px 10px;
-    margin: auto;
+    margin-top: 50px;
 }
 
 .atendimento {
