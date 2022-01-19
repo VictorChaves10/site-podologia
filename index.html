@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Claudia Araujo - Podologia em Londrina</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,18 +14,17 @@
 
         <picture>
             <source media="(max-width:600px)" srcset="imagens/logo(150 x 90 px).png" type="image/png">
-
             <img src="imagens/logo (180 x 101px).png" alt="Logo Claudia Araujo" width="100%">
         </picture>
 
-        <div class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+        <div class="hamburger-menu">
+            <div id="line1"></div>
+            <div id="line2"></div>
+            <div id="line3"></div>
         </div>
 
-        <nav>
-            <ul class="nav-list">
+        <nav class="nav-list">
+            <ul class="menu">
                 <li><a href="#">Procedimentos</a></li>
                 <li><a href="#">Produtos</a></li>
                 <li><a href="#">Home Care</a></li>
@@ -41,8 +40,8 @@
             <h1>Paixão por cuidar<br> dos <span>pés.</span></s></h1>
             <p>Há mais de 15 anos atuando na área da podologia.</p>
         </div>
+        
         <picture>
-            <source media="(max-width:770px)" srcset="imagens/foto-capa-transparente-300px.png">
             <img src="imagens/foto-capa-transparente-500px.png" width="100%" alt="Claudia Araujo">
         </picture>
 
@@ -53,8 +52,8 @@
         <section>
             <article class="atendimento">
                 <h1 data-anima="centro">Tipos de atendimentos</h1>
-                <p data-anima="direita">Para cada nescessidade, uma solução.
-                    Veja abaixo<br> alguns dos nossos atendimentos e as suas particularidades.</p>
+                <p data-anima="centro">Para cada nescessidade, uma solução.
+                    Veja abaixo alguns dos nossos atendimentos e<br> as suas particularidades.</p>
                 <div class="tipos-de-pes">
                     <div data-anima="centro">
                         <picture class="imagens-atendimentos">
@@ -96,12 +95,12 @@
                         <h2 class="tiposdepes">Home Care</h1>
                             <button class="botaotiposdepes" type="">VEJA SOBRE</button>
                     </div>
-                </div>  
+                </div>
             </article>
-                
+
             <article class="procedimentos">
                 <h1>Procedimentos</h1>
-                <p>Veja abaixo todos os nossos procedimentos e<br> clique encima das imagens para descobrir um pouco
+                <p>Veja abaixo todos os nossos procedimentos e clique encima das<br> imagens para descobrir um pouco
                     mais sobre cada um
                 </p>
                 <div class="fotos-procedimentos">
@@ -117,8 +116,8 @@
     <footer>
 
     </footer>
-    <script src="navbar-mobile.js"></script>
-    <script type="text/javascript" src="mobile-navbar.js"></script>
+    <script src="animacao-scroll.js"></script>
+    <script src="mobile-navbar.js"></script>
 </body>
 
 </html>
