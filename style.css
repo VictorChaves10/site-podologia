@@ -177,7 +177,6 @@ section.capa{
 /*conteudo*/
 
 main {
-    display: block;
     padding: 0px 10px;
     margin-top: 50px;
 }
@@ -293,11 +292,55 @@ main {
         font-size: 16px;
     }
 }
+/*Quem sou*/
+
+#quem-sou{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor5);
+}
+#quem-sou h1 {
+    font-family: var(--font-destaque);
+    font-size: 50px;
+    color: var(--cor4);
+    text-align: center;
+    text-shadow:4px black;
+}
+
+#quem-sou div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+
+}
+
+#quem-sou p {
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    font-family: var(--font-padrao);
+    font-size: 18px;
+    color:var(--cor0);
+    line-height: 40px;
+    background-color:#139188;
+    border-radius: 20px;
+    box-shadow: 4px 5px 14px 0px #00000052;
+}
+
+#quem-sou img {
+
+}
+
+
+
 /*ANIMAÇÃO*/
 
 [data-anima]{
     opacity: 0;
     transition: 0.5s;
+}
+[data-anima="esquerda"]{
+    transform: translate3d(0,0,0) ;
 }
 [data-anima="direita"]{
     transform: translate3d(50px,0,0); /*x,y,z*/
