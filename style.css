@@ -28,6 +28,7 @@
 body{
     overflow-x: hidden;
     margin: 0px;
+    flex-direction: column;
 }
 
 header {
@@ -136,9 +137,10 @@ section.capa{
 }
 
 .capa picture{
-    max-height:calc(100vh - 100px);
+    max-height: 100%;
 }
 .capa-texto{
+    max-height: 100%;
     padding-bottom: 200px;
 }
 
@@ -173,7 +175,9 @@ section.capa{
     .capa-texto h1 {
         font-size: 50px;
     }
-
+    .capa picture{
+        height: 100vh;
+    }
 }
 
 /*conteudo*/
