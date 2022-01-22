@@ -12,6 +12,7 @@
     --cor4: #03302D;
     --cor5: #5A707C;
     --cor6: #139188;
+    --cor7: #ecf7f7a2;
 
     --font-padrao:'Open Sans', arial, sans-serif;
     --font-destaque: 'Philosopher', sans-serif;
@@ -127,17 +128,17 @@ a:hover {
 section.capa{
     display: flex;
     align-items: flex-end;
-    justify-content: space-evenly;
-    height:calc(100vh - 100px); 
-    padding-right:20px;
-    padding-left: 20px;
+    justify-content: center;
+    height: calc(100vh - 100px); 
+    padding: 0px 20px;
     margin: auto;
-    background-color:#ecf7f796;
+    background-color:#ecf7f7a2;
     max-height: 850px;
+    min-height: 560px;
 }
 
 .capa picture{
-    max-height: 100%;
+    max-height: (100vh - 100px);
 }
 .capa-texto{
     max-height: 100%;
@@ -162,21 +163,20 @@ section.capa{
     section.capa {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: center;
         background-size: contain;
+        height: 80%;
     }
     .capa-texto {
         display: block;
         padding-top: 20px;
         padding-bottom: 0px;
+        margin-bottom: 50px;
     }
 
     .capa-texto h1 {
         font-size: 50px;
-    }
-    .capa picture{
-        height: 100vh;
     }
 }
 
@@ -258,6 +258,7 @@ main {
   /*procedimentos*/
  
 .procedimentos{
+    
     height: 100vh;
 }
 .procedimentos h1 {
@@ -276,7 +277,11 @@ main {
     text-align: center;
     margin-bottom: 30px;
 }
-
+.fotos-procedimentos {
+    background-image: url(imagens/background\ -\ procedimentos.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 @media (max-width:600px){
     .atendimento h1 {
         font-size: 40px;
@@ -303,6 +308,7 @@ main {
 .about{
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 .about h1 {
     font-family: var(--font-destaque);
@@ -323,8 +329,8 @@ main {
 }
 
 #my-story p {
-    width: 40%;
-    height: 50vw;
+    width: 100vh;
+    height: 100%;
     margin-bottom: 30px;
     padding: 30px;
     font-family: var(--font-padrao);
