@@ -258,8 +258,9 @@ main {
   /*procedimentos*/
  
 .procedimentos{
-    
-    height: 100vh;
+    height:100%;
+    max-height: 1000px;
+    margin: auto;
 }
 .procedimentos h1 {
     font-family: var(--font-destaque);
@@ -278,10 +279,24 @@ main {
     margin-bottom: 30px;
 }
 .fotos-procedimentos {
-    background-image: url(imagens/background\ -\ procedimentos.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(imagens/procedimentos/background-capa.png);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: contain;
+    height:calc(100vh - 100px);
+
 }
+.fotos{
+    margin: 20px;
+}
+.fotos img {
+    border-radius: 50px;
+    box-shadow: 5px 3px 3px 0px #1515159c;;
+}
+
 @media (max-width:600px){
     .atendimento h1 {
         font-size: 40px;
