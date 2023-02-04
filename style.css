@@ -130,10 +130,10 @@ a:hover {
 section.capa{
     display: flex;
     align-items: flex-end;
-    justify-content: center;
+    justify-content: space-evenly;
     height: calc(100vh - 100px); 
+    margin-top: 15px;
     padding: 0px 20px;
-    margin: auto;
     background-color:#FFFFFF;
     max-height: 850px;
     min-height: 560px;
