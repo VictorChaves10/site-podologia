@@ -38,8 +38,8 @@ header {
     height: 110px;
     padding: 10px;
     align-items: center;
-    justify-content: space-between;
-    background-color:#139188;
+    justify-content: space-around;
+    background-color:#FFFFFF;
 }
 
 .hamburger-menu {
@@ -52,7 +52,7 @@ header {
     height: 3px;
     margin: 6px;
     border-radius: 10px;
-    background-color: #FFFFFF;
+    background-color: var(--cor6);
 }
 
 .menu {
@@ -66,7 +66,7 @@ header {
     padding: 15px;
     text-decoration: none;
     font: bold 20px var(--font-destaque);
-    color:white;
+    color:var(--cor6);
     transition: .3s;
 }
 a:hover {
@@ -87,7 +87,7 @@ a:hover {
         width: 80%;
         top: 100px;
         right: 0px;
-        background-color:#139188;
+        background-color:var(--cor0);
         height:0px;
         z-index: 1000;
         transition: 0.6s;
@@ -132,7 +132,7 @@ section.capa{
     height: calc(100vh - 100px); 
     padding: 0px 20px;
     margin: auto;
-    background-color:#ecf7f7a2;
+    background-color:#FFFFFF;
     max-height: 850px;
     min-height: 560px;
 }
