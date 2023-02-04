@@ -85,7 +85,7 @@ header {
 a#wpp {
     padding: 0px;
 }
-a:hover {
+a.option:hover {
     color:var(--cor1);
 }
 
