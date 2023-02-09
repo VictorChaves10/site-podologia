@@ -86,7 +86,7 @@ a#wpp {
     padding: 0px;
 }
 a:hover {
-    color:var(--cor1);
+    color:var(--cor2);
 }
 
 @media (max-width:850px) {
@@ -242,7 +242,7 @@ main {
     box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
   
   }
-  
+
   .image-content {
     display: flex;
     flex-direction: column;
@@ -340,7 +340,7 @@ main {
   }
   
   .button:hover {
-    background: var(--cor6);
+    background: var(--cor2);
   }
   
   .swiper-navBtn {
@@ -350,7 +350,7 @@ main {
   }
   
   .swiper-navBtn:hover {
-    color: var(--cor6);
+    color: #139189b2;
   }
   
   .swiper-navBtn::before,
