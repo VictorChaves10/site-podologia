@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Claudia Araujo - Podologia em Londrina</title>
+
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
 </head>
 
 <body>
@@ -23,11 +26,11 @@
 
         <nav class="nav-list">
             <ul class="menu">
-                <li><a class="option" href="#">Procedimentos</a></li>
-                <li><a class="option" href="#">Produtos</a></li>
-                <li><a class="option" href="#">Home Care</a></li>
-                <li><a class="option" href="#">Sobre</a></li>
-                <li><a class="option" href="#">Contato </a>
+                <li><a href="#">Procedimentos</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Home Care</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato </a>
                     <a id="wpp" href=""><img src="imagens/icon-wpp.png" width="" alt=""></a>                
                 </li>
                 
@@ -49,57 +52,108 @@
     </section>
 
     <main>
-        <section>
-            <article class="atendimento">
-                <h1 data-anima="centro">Tipos de atendimentos</h1>
-                <p data-anima="centro">Para cada nescessidade, uma solução.
-                    Veja abaixo alguns dos nossos atendimentos e<br> as suas particularidades.</p>
+        <section class="atendimentos">
+            <h1>Tipos de atendimentos</h1>
 
-                <div class="tipos-de-pes">
-                    <div data-anima="centro">
-                        <picture class="imagens-atendimentos">
-                            <source media="(max-width:770px )" srcset="imagens/atendimentos/atleta-pequena.png">
-                            <img src="imagens/atendimentos/atleta (280 x 224 px).png" alt="Atletas">
-                        </picture>
-                        <h2 class="tiposdepes">Atletas</h1>
-                            <button class="botaotiposdepes">VEJA SOBRE</button>
-                    </div>
-                    <div data-anima="centro">
-                        <picture class="imagens-atendimentos">
-                            <source media="(max-width:770px)" srcset="imagens/atendimentos/idosos-pequena.png">
-                            <img src="imagens/atendimentos/idosos2 (280 x 224 px).png" alt="Idosos">
-                        </picture>
-                        <h2 class="tiposdepes">Podogeriatria</h1>
-                            <button class="botaotiposdepes">VEJA SOBRE</button>
-                    </div>
-                    <div data-anima="centro">
-                        <picture class="imagens-atendimentos">
-                            <source media="(max-width:770px)" srcset="imagens/atendimentos/diabetes-pequena.png">
-                            <img src="imagens/atendimentos/diabetes (280 x 224 px).png" alt="diabetes">
-                        </picture>
-                        <h2 class="tiposdepes">Pé diabético</h1>
-                            <button class="botaotiposdepes" type="">VEJA SOBRE</button>
-                    </div>
-                    <div data-anima="centro">
-                        <picture class="imagens-atendimentos">
-                            <source media="(max-width:770px )" srcset="imagens/atendimentos/infantil-pequena.png">
-                            <img src="imagens/atendimentos/Infantil (280 x 224 px).png" alt="Crianças">
-                        </picture>
-                        <h2 class="tiposdepes">Podopediatria</h1>
-                            <button class="botaotiposdepes" type="">VEJA SOBRE</button>
-                    </div>
-                    <div data-anima="centro">
-                        <picture class="imagens-atendimentos">
-                            <source media="(max-width:770px)" srcset="imagens/atendimentos/home-care-pequena.png">
-                            <img src="imagens/atendimentos/home care (280 x 224 px).png" alt="Home care">
-                        </picture>
-                        <h2 class="tiposdepes">Home Care</h1>
-                            <button class="botaotiposdepes" type="">VEJA SOBRE</button>
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+    
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="imagens/atendimentos/atleta-pequena.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">Podologia Esportiva</h2>
+                                <p class="description">Os pés de um atleta são essenciais para a sua saúde e bem-estar geral. Uma tonelada de força viaja através de seus ossos e tecidos toda vez que seu pé bate no chão.</p>
+    
+                                <button class="button">Veja Mais</button>
+                            </div>
+                        </div>
+    
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="imagens/atendimentos/diabetes-pequena.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">David Dell</h2>
+                                <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+    
+                                <button class="button">Veja Mais</button>
+                            </div>
+                        </div>
+    
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="imagens/atendimentos/home-care-pequena.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">David Dell</h2>
+                                <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+    
+                                <button class="button">Veja Mais</button>
+                            </div>
+                        </div>
+    
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="imagens/atendimentos/idosos-pequena.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">David Dell</h2>
+                                <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+    
+                                <button class="button">Veja Mais</button>
+                            </div>
+                        </div>
+                        
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="imagens/atendimentos/infantil-pequena.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">David Dell</h2>
+                                <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+    
+                                <button class="button">Veja Mais</button>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
-            </article>
-
+    
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
         </section>
+
+        <section class="procedimentos">
 
         <section class="procedimentos">
             <h1>Procedimentos</h1>
@@ -116,8 +170,8 @@
     <footer>
 
     </footer>
-    <script src="animacao-scroll.js"></script>
     <script src="mobile-navbar.js"></script>
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@9.0.2/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
 </html>
