@@ -47,19 +47,14 @@ header {
     background-color: #FFF;
    
 }
+.scroll-header{
 
-.hamburger-menu {
-    display: none;
-    cursor:pointer;
+  background-color: var(--body-color);
+
+  box-shadow: 0 1px 4px hsla(220, 4%, 15%, .1);
+
 }
 
-.hamburger-menu div {
-    width: 34px;
-    height: 3px;
-    margin: 6px;
-    border-radius: 10px;
-    background-color: var(--cor6);
-}
 
 .menu {
     display: flex;
@@ -88,44 +83,6 @@ a:hover {
     color:var(--cor3);
 }
 
-@media (max-width:850px) {
-
-    .hamburger-menu {
-        display: block;
-    }
-    
-    .menu {
-        position: absolute;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        width: 80%;
-        top: 100px;
-        right: 0px;
-        background-color:var(--cor7);
-        height:0px;
-        z-index: 1000;
-        transition: 0.6s;
-        overflow-y: hidden;
-        height: 0px;
-        visibility: hidden;
-    }
-
-    .menu li {
-        margin-left: 0px;
-        opacity: 0;
-    }
-
-    .menu.active  {
-        height: calc(100vh - 100px);
-        transform: translateY(0);
-        visibility: visible;
-        
-    }
-    .menu.active .hamburger-menu line{
-        display: none;
-    }
-}
 
 @keyframes navLinkFade {
     from{
@@ -451,9 +408,7 @@ main {
 }
 /*SOBRE*/
 
-@media (max-width:) {
-    
-}
+
 
 
 
