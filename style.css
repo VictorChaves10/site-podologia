@@ -29,30 +29,21 @@
     box-sizing: border-box;
 }
 
-/*congigurção do menu responsivo e do cabeçalho*/
+/*configuração do menu responsivo e do cabeçalho*/
 
 body{
     overflow-x: hidden;
     margin: 0px;
-    flex-direction: column;
 }
 
 header {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
     height: 110px;
-    padding-top: 10px;
     box-sizing: border-box;
-    background-color: #FFF;
    
 }
-.scroll-header{
 
-  background-color: var(--body-color);
-
-  box-shadow: 0 1px 4px hsla(220, 4%, 15%, .1);
-
+#menu{
+  background-color: #80fff7;  
 }
 
 
@@ -76,6 +67,7 @@ header {
     transition: .3s;
 }
 
+
 a#wpp {
     padding: 0px;
 }
@@ -83,17 +75,6 @@ a:hover {
     color:var(--cor3);
 }
 
-
-@keyframes navLinkFade {
-    from{
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 
 /*Configurações da capa*/
 
@@ -112,6 +93,7 @@ section.capa{
 .capa picture{
     max-height: (100vh - 100px);
 }
+
 .capa-texto{
     max-height: 100%;
     padding-bottom: 200px;
