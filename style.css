@@ -12,9 +12,9 @@
 :root{
     --cor0: #DBFFFF;
     --cor1: #73E6E6;
-    --cor2: #2dada6;
-    --cor3: #109648;
-    --cor4: #03302D;
+    --cor2: #0bc4ba;
+    --cor3: #00a876;
+    --cor4: #028162;
     --cor5: #5A707C;
     --cor6: #139188;
     --cor7: #ecf7f7a2;
@@ -27,6 +27,12 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+.nav-item a {
+
+  font-family: var(--font-destaque);
+  color: var(--cor4);
 }
 
 /*configuração do menu responsivo e do cabeçalho*/
@@ -42,38 +48,18 @@ header {
    
 }
 
-#menu{
-  background-color: #80fff7;  
+@media (min-width: 768px) {
+  .itens-menu {
+      display: flex !important;
+  }
+
+  .navbar-toggler {
+      display: none;
+  }
 }
 
 
-.menu {
-    display: flex;
-    list-style: none;
-    gap: 25px;
-}
-.menu > li{
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.menu a {
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-    font: 600 14px 'Proxima nova';
-    color:var(--cor6);
-    transition: .3s;
-}
-
-
-a#wpp {
-    padding: 0px;
-}
-a:hover {
-    color:var(--cor3);
-}
 
 
 /*Configurações da capa*/

@@ -3,7 +3,7 @@ window.addEventListener('resize', function () {
   var menuItems = document.querySelector('.itens-menu');
   var menuButton = document.querySelector('.navbar-toggler');
 
-  if (screenWidth < 760) {
+  if (screenWidth < 768) {
       menuItems.classList.add('d-none');
       menuButton.classList.remove('d-none');
   } else {
