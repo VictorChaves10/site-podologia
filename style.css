@@ -36,8 +36,8 @@ body {
 /*Header*/
 
 header {
-  height: 110px;
-  box-sizing: border-box;  
+  height: 100px;
+  box-sizing: border-box;
 }
 
 .nav-item a {
@@ -60,6 +60,15 @@ header {
   }
 }
 
+
+/*SECTION ONE*/
+
+h1{
+  padding-bottom: 50px;
+  font: italic 32px var(--font-destaque);
+  color: var(--cor0 ) !important;
+  text-align: center;
+}
 
 /*First section*/
 
