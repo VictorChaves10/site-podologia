@@ -15,21 +15,13 @@
 </head>
 
 <body>
-    <header class="container-xl">
-
+    <header>
         <nav class="navbar bg-body-tertiary fixed-top">
-            <!--<ul class="menu">
-                <li><a href="#">Procedimentos</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Home Care</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato </a>
-                    <a id="wpp" href=""><img src="imagens/icon-wpp.png" width="" alt=""></a>                
-                </li>              
-            </ul>-->
+
             <div class="container-xxl justify-content-around align-items-end">
-                <a class="navbar-brand" href="index.html"><img src="imagens/logo-verde-02.png" alt="Logo Claudia Araujo"
-                        width="150px"></a>
+                <a class="navbar-brand" href="index.html">
+                    <img src="imagens/logo-verde-02.png" alt="Logo Claudia Araujo" width="150px">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -50,11 +42,12 @@
                     </li>
                 </ul>
 
+                <!--Menu Hamburger-->
+
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                        <img src="imagens/logo-verde-02.png" alt="Logo Claudia Araujo"
-                            width="100px">
+                        <img src="imagens/logo-verde-02.png" alt="Logo Claudia Araujo" width="100px">
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
@@ -76,7 +69,7 @@
                                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
-                          
+
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Home Care</a>
                             </li>
@@ -86,26 +79,29 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contato</a>
                             </li>
-                        </ul>          
+                        </ul>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
 
-    <section class="capa">
-
-        <div class="capa-texto">
-        
-        </div>
-        <picture>
-            <source media="(max-width:770px)" srcset="imagens/capa/foto-capa-transparente-300pxx.png" type="image/png">
-            <img src="imagens/capa/foto-capa-transparente-500px.png" width="100%" alt="Claudia Araujo">
-        </picture>
-    </section>
-
     <main>
-        <section class="atendimentos">
+
+        <!--SECTION 01-->
+        <section class="container">            
+            <div>
+                <img src="imagens/section-one/section1-pes-.svg" alt="pés">
+            </div>
+
+            <div>
+                <p>"Os cuidados que seus pés mFerecem"</p>
+            </div>
+        </section>
+
+
+        <!-- SECTION 02-->
+        <section class="atendimentos" style="background-color: #007365;">
             <h1>Tipos de atendimentos</h1>
 
             <div class="slide-container swiper">
