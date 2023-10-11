@@ -14,3 +14,7 @@ window.addEventListener('resize', function () {
 
 // Disparar o evento resize ao carregar a página
 window.dispatchEvent(new Event('resize'));
+
+
+
+const carousel = new bootstrap.Carousel('#myCarousel')

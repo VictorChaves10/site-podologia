@@ -62,6 +62,12 @@ header {
 
 /*SECTION 01*/
 
+.cnt1{
+  background-image: url(imagens/section-one/logo-verde-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 h1{
   padding-bottom: 50px;
   font: normal 32px var(--font-destaque);
