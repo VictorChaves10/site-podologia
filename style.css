@@ -33,6 +33,14 @@ body {
   margin: 0px;
 }
 
+
+h1{
+  padding-bottom: 50px;
+  font: normal 34px var(--font-destaque);
+  color: var(--cor0 ) !important;
+  text-align: center;
+}
+
 /*HEADER*/
 
 header {
@@ -62,16 +70,13 @@ header {
 
 /*SECTION 01*/
 
-h1{
-  padding-bottom: 50px;
-  font: normal 32px var(--font-destaque);
-  color: var(--cor0 ) !important;
-  text-align: center;
-}
 
 
 /*SECTION 02*/
 
+.cardsAtendimento{
+ 
+}
 
 /*procedimentos*/
 
