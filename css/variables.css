@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+
+:root {
+
+    --cor0: #007365;
+    --cor1: #04BF8A;
+    --cor2: #BAFAEF;
+    --cor3: #5B7A75;
+    --cor4: #117C67;
+    --cor5: #16A287;
+  
+    --font-padrao: 'Poppins', sans-serif;
+    --font-destaque: 'Philosopher', sans-serif;
+  }
+  
